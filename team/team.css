@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Grandstander:wght@300&family=IBM+Plex+Sans:wght@500&family=Kanit:wght@200&family=Martian+Mono:wght@200&family=Playpen+Sans:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9e2e2;
+
+
+}
+img{
+    width: 150px;
+    position: relative;
+    height: 150px;
+    border: 3px solid rgb(132, 132, 210);
+    border-radius: 50%;
+    padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.cont1{
+    max-width: 350px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;   
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 23px 32px #e65151;
+    margin-left: 50px;
+}
+
+.cont1 .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text .name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    font-weight: bolder;
+
+}
+.text .job{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    font-weight: 300px;
+    margin: 2px;
+
+}
+.media{
+    display: flex;
+    justify-content: center;
+}
+.media .link{
+    text-decoration: none;
+    background-color: rgba(246, 139, 139, 0.151);
+    padding: 10px;
+    margin: 3px;
+    margin-top: 14px;
+    border-radius: 80px;
+    color: rgba(12, 63, 245, 0.79);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+
+}
+
+.comt1 .button{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+
+    
+}
+.btn{
+    padding: 5px;
+    width: 100px;
+    margin: 19px;
+    font-weight: 700;
+    border: 2px solid pink;
+    border-radius: 45px;
+    background-color: rgb(227, 7, 183);
+    color: white;
+    padding: 10px;
+    font-size: medium;
+}
+
+.cont1 .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon .like{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+.red1{
+    font-size: 25px;
+    margin: 10px;
+    
+}
+
+.team{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.media .link:hover{
+    background-color: rgba(213, 97, 97, 0.515);
+    color: black;
+}
+
+.text .job:hover{
+    text-shadow: 2px 2px 2px #1447a090;
+    font-weight: 600;
+}
+    
+.red1:hover{
+    cursor: pointer;
+}
+
+
+.team1{
+    display: flex;
+    font-size: larger;
+    font-weight: 1000;
+    border: 3px solid tomato;
+    padding: 10px;
+    background-color: bisque;
+    box-shadow: 2px 3px 3px rgb(227, 7, 183);
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.team1:hover{
+    background-color: #e9e2e2;
+    box-shadow: 0px 1px 2px rgb(227, 7, 183);
+
+}
+

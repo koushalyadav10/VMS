@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planning Form</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+    <header>
+        <h1>Event Planning Form</h1>
+    </header>
+
+    <form id="eventForm">
+        <label for="eventName">Event Name:</label>
+        <select name="eventName" id="eventName" required>
+            <option value="Invaild">Select any one</option>
+            <option value="Hindi Compitiation">Hindi Compitiaton</option>
+            <option value="ISC">ISC</option>
+            <option value="Hacker Rank Hackton">HackerRank Hackton</option>
+            <option value="Debet">Debet </option>
+            <option value="Group Dissusion">Group Disscusion</option>
+            <option value="Food">Food </option>
+            <option value="Seminar">Seminar</option>
+        </select>
+        <!-- <input type="select" id="eventName" name="eventName" required> -->
+        
+
+        <label for="dateTimeLocal">Event Date:</label>
+        <input type="datetime-local" id="dateTimeLocal" name="dateTimeLocal" required>
+
+        <label for="eventLocation">Event Location:</label>
+        <input type="text" id="eventLocation" name="eventLocation" required>
+
+        <label for="eventType">Event Type:</label>
+        <select id="eventType" name="eventType" required>
+            <option value="None">Select Event Type</option>
+            <option value="conference">Conference</option>
+            <option value="workshop">Workshop</option>
+            <option value="Trade Shows">Trade Shows</option>
+            <option value="Corporate off-sites">Corporate off-sites</option>
+            <option value="Executive meetings">Executive meetings</option>
+            <option value="other">Other</option>
+        </select>
+
+        <button onclick="submitForm()" class="btn">Submit</button>
+    </form>
+
+    <script src="sign.js">
+        
+    </script>
+
+</body>
+</html>
